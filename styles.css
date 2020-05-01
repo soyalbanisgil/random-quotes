@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.quotes {
+    background-color: #16A085;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.buttons {
+    align-self: center;
+}
+
+#quote {
+    align-self: center;
+    text-align: center;
+    background-color: #FFD521;
+    border: solid 0.5rem #000;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#quote p {
+    align-self: center;
+}
+
+#quote img {
+    width: auto;
+    height: 200px;
+    align-self: center;
+}
+
+.btn {
+    background-color: #3B3B98;
+    margin: 1rem;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(45, 45, 121);
+}
+
+.btn.simpsons {
+    background-color: #FFD521;
+    color: #000;
+}
+
+.btn.simpsons:hover {
+    background-color: rgb(226, 186, 8);
+}
